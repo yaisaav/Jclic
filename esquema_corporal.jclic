@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="esquema_corporal" version="0.1.3">
+ <settings>
+  <title>Esquema Corporal</title>
+  <revision description="created" date="6/13/25" />
+  <author name="Yaima Saavedra" rol="Docente" />
+  <author name="Ana Rodriguez" rol="Docente" />
+  <author name="Nitzia Ibarra" rol="Docente" />
+  <description>
+   <p>Localización e identificación del esquema corporal por medio de juegos.</p>
+  </description>
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>Localización e identificación del esquema corporal por medio de juegos.</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="Esquema corporal" />
+ </sequence>
+ <activities>
+  <activity class="@puzzles.DoublePuzzle" name="Esquema corporal" code="">
+   <description>
+    <p>Esquema del cuerpo humano.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Colonna MT" size="24" bold="true" />
+     </style>
+     <p>¡Bienvenido!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Colonna MT" size="24" bold="true" />
+     </style>
+     <p>¡Espero verte de nuevo!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Colonna MT" size="24" bold="true" />
+     </style>
+     <p>¡Oh no, te equivocaste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFFCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCC66FF" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="Cuerpo humano-resized.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="Cuerpo humano-resized.jpg" file="cuerpo_humano-resized-esquema_corporal.jpg" />
+ </mediaBag>
+</JClicProject>
+

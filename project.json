@@ -1,0 +1,34 @@
+{
+  "title": "Esquema Corporal",
+  "author": "Yaima Saavedra (Docente), Ana Rodriguez (Docente), Nitzia Ibarra (Docente)",
+  "date": "13/06/25",
+  "description": {
+    "es": "Localización e identificación del esquema corporal por medio de juegos."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "esquema_corporal.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 2,
+  "mediaFiles": 7,
+  "totalSize": 108491,
+  "files": [
+    "cuerpo_humano-resized-esquema_corporal.jpg",
+    "cuerpo_humano-resized.jpg",
+    "esquema_corporal.jclic",
+    "esquema_corporal.jclic.js",
+    "favicon.ico",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}
